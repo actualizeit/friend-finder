@@ -1,11 +1,9 @@
-// ===============================================================================
-// DATA
-// ===============================================================================
+
 
 var friends = [
     {
       name: "Ahmed",
-      photo: "https://via.placeholder.com/150",
+      photo: "https://www.birmingham.ac.uk/Images/Staff/profiles/cem/Ahmed,Zubair.jpg",
       "scores":[
         5,
         1,

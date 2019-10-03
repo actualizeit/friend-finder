@@ -1,7 +1,3 @@
-// ===============================================================================
-// LOAD DATA
-// We are linking our routes to a series of "data" sources.
-// ===============================================================================
 
 var friends = require("../data/friends.js");
 
@@ -22,16 +18,10 @@ function bestMatch(req){
             friendOptions[i].matchScore = bestMatchScore
             bestMatch = friendOptions[i]
         }
-        console.log(totalDiff)
     }
     friends.push(req.body);
     return bestMatch
 }
-
-
-// ===============================================================================
-// ROUTING
-// ===============================================================================
 
 module.exports = function(app) {
 
@@ -51,22 +41,3 @@ module.exports = function(app) {
     res.json({ ok: true });
   });
 };
-
-// var myMan = {
-//     name: "MyMan",
-//     photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-//     "scores":[
-//       2,
-//       3,
-//       1,
-//       4,
-//       5,
-//       1,
-//       2,
-//       5,
-//       4,
-//       3
-//     ]
-//   }
-
-//   bestMatch(myMan)
