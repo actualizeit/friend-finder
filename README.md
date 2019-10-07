@@ -1,4 +1,4 @@
-# Find that Special Someone With Friend Finder
+# Find that Special Someone With Friend Finder (TM Pending) 
 
 ## Getting Started
 
