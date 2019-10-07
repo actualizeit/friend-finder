@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This app uses a proprietary matching formula to ensure that you are paired with only the most compatible guy named Ahmed that you are seeking. Just navigate to the app at Heroku to get the most recent deployment:
+This app uses a proprietary matching formula to ensure that you are paired with only the most compatible guy named Ahmed (and maybe some other people depending on app popularity, but whats wrong with Ahmed!?). Anyway, just navigate to the app at Heroku to get the most recent deployment:
 
 https://friend-finder-6.herokuapp.com/
 
